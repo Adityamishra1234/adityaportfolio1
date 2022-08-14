@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+
+  <meta
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    name="viewport"
+  />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>How to become a frontend developer</title>
+
+  <meta property="og:title" content="How to become a frontend developer" />
+
+  <meta property="og:locale" content="en_US" />
+
+  <link
+    rel="canonical"
+    href="//post"
+  />
+
+  <meta
+    property="og:url"
+    content="//post"
+  />
+
+  <meta
+    name="description"
+    content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  />
+
+  <link rel="icon" type="image/png" href="/apple-touch-icon.png" />
+
+  <meta name="theme-color" content="#5540af" />
+
+  <meta property="og:site_name" content="" />
+
+  <meta property="og:image" content="/social.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <meta name="twitter:site" content="@tailwindmade" />
+
+  <link
+    crossorigin="crossorigin"
+    href="https://fonts.gstatic.com"
+    rel="preconnect"
+  />
+
+  <link
+    as="style"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap"
+    rel="preload"
+  />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link
+    href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+    rel="stylesheet"
+  />
+
+  <link
+    crossorigin="anonymous"
+    href="/main.min.css"
+    media="screen"
+    rel="stylesheet"
+  />
+  
+  <script
+    defer
+    src="https://unpkg.com/@alpine-collective/toolkit@1.0.0/dist/cdn.min.js"
+  ></script>
+
+  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+  
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/atom-one-dark.min.css"
+  />
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+
+  <script>
+    hljs.highlightAll();
+  </script>
+  
+</head>
+
+
+  <body
+    :class="{ 'overflow-hidden max-h-screen': mobileMenu }"
+    class="relative"
+    x-data="{ mobileMenu: false }"
+  >
+    
+    <div id="main" class="relative">
+      <div
+  x-data="{
+    triggerNavItem(id) {
+        $scroll(id)
+    },
+    triggerMobileNavItem(id) {
+        mobileMenu = false;
+        this.triggerNavItem(id)
+    }
+}"
+>
+  <div class="w-full z-50 top-0 py-3 sm:py-5  bg-primary ">
+  <div class="container flex items-center justify-between">
+    <div>
+      <a href="/">
+        <img src="/page2pic1.jpg" class="w-12 h-12 rounded-full" alt="logo image" />
+      </a>
+    </div>
+    <div class="hidden lg:block">
+      <ul class="flex items-center">
+        
+        <li class="group pl-6">
+          
+          <a
+            href="/#about"
+            class="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white"
+            >About</a
+          >
+          
+          <span
+            class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"
+          ></span>
+        </li>
+        
+        <li class="group pl-6">
+          
+          <a
+            href="/#services"
+            class="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white"
+            >Services</a
+          >
+          
+          <span
+            class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"
+          ></span>
+        </li>
+        
+        <li class="group pl-6">
+          
+          <a
+            href="/#portfolio"
+            class="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white"
+            >Portfolio</a
+          >
+          
+          <span
+            class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"
+          ></span>
+        </li>
+        
+        <li class="group pl-6">
+          
+          <a
+            href="/#clients"
+            class="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white"
+            >Clients</a
+          >
+          
+          <span
+            class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"
+          ></span>
+        </li>
+        
+        <li class="group pl-6">
+          
+          <a
+            href="/#work"
+            class="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white"
+            >Work</a
+          >
+          
+          <span
+            class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"
+          ></span>
+        </li>
+        
+        <li class="group pl-6">
+          
+          <a
+            href="/#statistics"
+            class="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white"
+            >Statistics</a
+          >
+          
+          <span
+            class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"
+          ></span>
+        </li>
+        
+        <li class="group pl-6">
+          
+          <a
+            href="/#blog"
+            class="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white"
+            >Blog</a
+          >
+          
+          <span
+            class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"
+          ></span>
+        </li>
+        
+        <li class="group pl-6">
+          
+          <a
+            href="/#contact"
+            class="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white"
+            >Contact</a
+          >
+          
+          <span
+            class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"
+          ></span>
+        </li>
+        
+      </ul>
+    </div>
+    <div class="block lg:hidden">
+      <button @click="mobileMenu = true">
+        <i class="bx bx-menu text-4xl text-white"></i>
+      </button>
+    </div>
+  </div>
+</div>
+
+<div
+  class="pointer-events-none fixed inset-0 z-70 min-h-screen bg-black bg-opacity-70 opacity-0 transition-opacity lg:hidden"
+  :class="{ 'opacity-100 pointer-events-auto': mobileMenu }"
+>
+  <div
+    class="absolute right-0 min-h-screen w-2/3 bg-primary py-4 px-8 shadow md:w-1/3"
+  >
+    <button
+      class="absolute top-0 right-0 mt-4 mr-4"
+      @click="mobileMenu = false"
+    >
+      <img src="/icon-close.svg" class="h-10 w-auto" alt="" />
+    </button>
+
+    <ul class="mt-8 flex flex-col">
+      
+      <li class="py-2">
+        
+        <a
+          href="/#about"
+          class="pt-0.5 font-header font-semibold uppercase text-white"
+          >About</a
+        >
+        
+      </li>
+      
+      <li class="py-2">
+        
+        <a
+          href="/#services"
+          class="pt-0.5 font-header font-semibold uppercase text-white"
+          >Services</a
+        >
+        
+      </li>
+      
+      <li class="py-2">
+        
+        <a
+          href="/#portfolio"
+          class="pt-0.5 font-header font-semibold uppercase text-white"
+          >Portfolio</a
+        >
+        
+      </li>
+      
+      <li class="py-2">
+        
+        <a
+          href="/#clients"
+          class="pt-0.5 font-header font-semibold uppercase text-white"
+          >Clients</a
+        >
+        
+      </li>
+      
+      <li class="py-2">
+        
+        <a
+          href="/#work"
+          class="pt-0.5 font-header font-semibold uppercase text-white"
+          >Work</a
+        >
+        
+      </li>
+      
+      <li class="py-2">
+        
+        <a
+          href="/#statistics"
+          class="pt-0.5 font-header font-semibold uppercase text-white"
+          >Statistics</a
+        >
+        
+      </li>
+      
+      <li class="py-2">
+        
+        <a
+          href="/#blog"
+          class="pt-0.5 font-header font-semibold uppercase text-white"
+          >Blog</a
+        >
+        
+      </li>
+      
+      <li class="py-2">
+        
+        <a
+          href="/#contact"
+          class="pt-0.5 font-header font-semibold uppercase text-white"
+          >Contact</a
+        >
+        
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+
+      <div><div class="container py-6 md:py-10">
+  <div class="mx-auto max-w-4xl">
+    <div class="">
+      <h1
+        class="pt-5 font-body text-3xl font-semibold text-primary sm:text-4xl md:text-5xl xl:text-6xl"
+      >
+        How to become a frontend developer
+      </h1>
+      <div class="flex items-center pt-5 md:pt-10">
+        <div>
+          <img
+            src="/page2pic1.jpg"
+            class="h-20 w-20 rounded-full border-2 border-grey-70 shadow"
+            alt="author image"
+          />
+        </div>
+        <div class="pl-5">
+          <span class="block font-body text-xl font-bold text-grey-10"
+            >By Aditya Mishra</span
+          >
+          <span class="block pt-1 font-body text-xl font-bold text-grey-30"
+            >August, 2022</span
+          >
+        </div>
+      </div>
+    </div>
+    <div class="prose max-w-none pt-8"><h2 id="lorem-ipsum-dolor-sit-amet">Lets Dive Into It</h2>
+
+<p>Front end developer is one of the hottest career options right now, but what is front end development? To summarize, 
+  it is that part of web development that is associated with designing interface(s) that allows users to interact with a website or web app.
+  Before we move further to discuss the path of becoming a 
+  front-end developer, let’s build a brief understanding of web
+   development first.</p>
+
+<p>Web Development in a Nutshell
+  Well, the internet - websites and web apps - has two sides. The front-end or the client-side and back-end a.k.a. the server-side. While the backend is invisible to the users, it is the front-end through 
+  which the same interaction with a website or web app.
+  Front end developers are professionals responsible 
+  for designing and implementing the interface, 
+  the medium, by which users can interact with the website 
+  or web app.
+  The process of web development starts with web 
+  designers who craft the appearance and design of a website. Next, a front-end developer, or a full-stack developer, ensures that the website works by leveraging code, tools, and technologies.</p>
+
+<h3 id="lorem-ipsum-dolor-sit-amet-1">Why do we Need Front-End Development?</h3>
+
+<p>The internet is growing at an unprecedented rate these days, and there are all sorts of reasons for that. People use the internet 
+  for:</p>
+
+<ul>
+  <li>Communication.</li>
+    <li>Gaining information and knowledge.</li>
+    <li>Learning and studying.</li>
+    <li>Paying bills.</li>
+    <li>Running businesses.</li>
+    <li>Shopping, etc.</li>
+</ul>
+
+<h4 id="lorem-ipsum-dolor-sit-amet-2">How to Become a Front End Developer?</h4>
+
+<p>Warning: You need to be ardent and resolute to enter and succeed in the realm of web development. It demands lots of practice, a mushrooming knowledge base, and sheer determination.
+
+  Ready to know the path to becoming a front end developer? Ok, let’s go then. To make things easier to understand, we’ll discuss the entire process in phases. Just like other job avenues,
+   front end development starts with learning:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+  fonts.forEach(font =&gt; {
+  const { id, name, likes } = font;
+  if (
+    likes &gt;= 30
+    || (likes === 50 &amp;&amp; likes != 0)
+    || favorites[id]
+  ) {
+    coolFonts++;
+    console.log(`${name} is cool!`);
+  }
+});
+</code></pre></div></div>
+
+<p class="text-black font-semibold">Step 01: Learn front-end development</p>
+  <p>You will start with three vital technologies for learning and mastering the craft of frontend development:</p>
+  
+  <p>
+  <b>CSS</b> - Responsible for the appearance of a website/webapp.<br>
+  <b>HTML</b>- Responsible for what of a website/web app. Analogous to the human skeleton.<br>
+  <b>JavaScript</b> - The nervous system (working) of a website. Responsible for the how aspect of a website/web app.</p>
+  <p>There are a plethora of programming languages and technologies for accomplishing website and web app development, such as jQuery and JavaScript frameworks. The next step is to learn the same. There are several ways of learning frontend development, including:</p>
+  <ul>
+  <li> Attending webinars.</li>
+  <li >Enroll in online courses.</li>
+  <li>Going through online tutorials.</li>
+  <li>Reading (e)books.</li>
+  <li>Watching video lessons.</li>
+
+  </ul>
+  Read as many articles on front-end development as you can. By doing so you will learn the intricacies of building a website. Eventually, you’ll be able to make sense out of several technologies employed in frontend development.<br><br>
+  
+  <p class="text-black font-semibold">Step 02: Start building real projects</p>
+  <p>Once you’ve done some good level of frontend development learning, it’s time to put it to test. Now, you should start developing real projects. There are several issues that you won’t face until you start doing it. These can’t be learned by learning but by practicing. </p>
+  <p>Start small, begin with building smaller, basic interfaces. Eventually, work your way up to more complex interfaces. Don’t be afraid of making mistakes. These are important. The more mistakes you will make, the better opportunity for you to learn by practice.</P>
+  
+  <P>If you don’t know where exactly to start, begin with free, educational projects available online. Study them. Afterward, modify and tweak them to clear your concepts. Today, several online compilers are available. If you wish to save yourself from cluttering your system, use them.</P>
+  
+  <p>There are so many resources, both paid and free, available online to support learning frontend development. 
+    These include Codeacademy, freeCodeCamp, hackr.io,
+     Tutorialspoint, and YouTube among dozens of others.</p>
+  
+     <p class="text-black font-semibold">Step 03: Build your Profile</p>
+  <p>All projects that you’ve completed
+   on your own, especially the ones that
+    demonstrate your skills and ability must
+     be added to your resume. You need to build
+      your frontend developer profile. There are 
+      several ways of doing it and thus, it is all
+       up to you to decide how to do it.</p>
+  
+  <p>You can make a profile on
+   LinkedIn and other job portals. 
+   Add your works to your profile
+    and write descriptively about them. 
+    If you don’t like social media then prepare a 
+    traditional resume.</p>
+  
+    <p class="text-black font-semibold">Step 04: Apply for a front end development job or internship/Start offering your services as a freelance front end developer</p>
+  <p>Getting an internship as a junior 
+    frontend developer is a great way to 
+    learn and earn. By doing so, you get the opportunity to learn 
+    from experienced people while playing a role in accomplishing the 
+    projects.</p>
+  
+  <p>Yes, you earn low when you work as an intern but on the flip side, 
+    you need fewer qualifications to jump on-board. Moreover, you need 
+    not aim for money in the starting. Prioritize learning and experience
+     first.</p>
+  
+  <p>Once you’ve completed the internship, you can either look for a full-time job or start offering your services as a
+     freelancer. It will take some time to land your first job 
+     or freelance project. So, be patient and keep on working.</p>
+  
+     <p class="text-black font-semibold">Step 05 - Learn more technologies and tools</p>
+  
+  <p>To stay relevant in the ever-evolving landscape of the IT industry, you need to stay abreast of the latest advancements.
+     You need to keep expanding your skillset and 
+     technologies that you can work with. Some technologies 
+     that you can learn to advance your frontend development 
+     career are:</p>
+  
+  <b>1. Command Line</b>
+  Modern interfaces are built to be interacted with visually. The idea is to reduce effort and maximize convenience as much as possible. However, that’s for the user. As a developer, you must be able to work with text interfaces if needs be. That is accomplished using the command line.
+  
+  <p>Any advanced programmer/developer is well-acquainted with the concept of CLI or Command Line Interface. Shell offers you the ability to access an operating system and do several things like displaying files and navigate through the file system via a text 
+  interface.</p>
+  
+  <b>2. Version Control Systems (VCSs)</b>
+  Modern software and website development leverage the concept of CI/CD i.e. continuous integration and continuous delivery/deployment. This means that upgrades are released and deployed continuously in smaller iterations.
+  
+  To effectively manage the aforementioned, we have version control systems. A VCS allows developers to easily apply and check smaller changes without worrying about breaking the entire code altogether. There are several version control systems but the most popular are:
+  
+  <li>Apache Subversion</li>
+  <li>AWS CodeCommit</li>
+  <li>Beanstalk</li>
+  <li>GitHub</li>
+  <li>Mercurial</li>
+  <b>3. NodeJS</b>
+  <p>Node.js is a JavaScript runtime environment that allows developers to build standalone JS apps. It is an open-source, multi-platform software application that allows executing JS code outside a web browser.</p>
+  
+  <p>Following the notion of JavaScript everywhere, NodeJS is built on top of the Chrome V8 engine. It unifies web application development by facilitating both frontend and backend development.</p>
+  
+  <b>4. Programming Languages</b>
+  <p>There is a diverse array of programming languages. Each one of them is more or less different from others. While some prioritize some specific set of concepts, some others might disregard it altogether. Hence, the more programming languages you’ll learn, the better programmer 
+  you will become.</p>
+</div>
+    <div class="flex pt-10">
+      <a
+        href="/"
+        class="rounded-xl bg-primary px-4 py-1 font-body font-bold text-white hover:bg-grey-20"
+        >Frontend</a
+      >
+      <a
+        href="/"
+        class="ml-2 block rounded-xl bg-primary px-4 py-1 font-body font-bold text-white hover:bg-grey-20"
+        >Design</a
+      >
+    </div>
+    <div class="mt-10 flex justify-between border-t border-lila py-12">
+      <a href="/" class="flex items-center">
+        <i class="bx bx-left-arrow-alt text-2xl text-primary"></i>
+        <span
+          class="block pl-2 font-body text-lg font-bold uppercase text-primary md:pl-5"
+          >Travel Back</span
+        >
+      </a>
+      <a href="https://usersnap.com/blog/how-to-become-a-front-end-developer/" class="flex items-center">
+        <span
+          class="block pr-2 font-body text-lg font-bold uppercase text-primary md:pr-5"
+          >Read More</span
+        >
+        <i class="bx bx-right-arrow-alt text-2xl text-primary"></i>
+      </a>
+    </div>
+    <div
+      class="flex flex-col items-center border-t border-lila py-12 pt-12 md:flex-row md:items-start xl:pb-20"
+    >
+      <div class="w-3/4 sm:w-2/5 lg:w-1/4 xl:w-1/5">
+        <img
+          src="/page2picaditya.jpg"
+          class="rounded-full shadow"
+          alt="author image"
+        />
+      </div>
+      <div class="ml-0 text-center md:ml-10 md:w-5/6 md:text-left">
+        <h3 class="pt-10 font-body text-2xl font-bold text-secondary md:pt-0">
+          Aditya Mishra
+        </h3>
+        <p
+          class="pt-5 font-body text-lg leading-8 text-secondary sm:leading-9 md:text-xl md:leading-9 lg:leading-9 xl:leading-9"
+        >
+          A Computer Geek and Enthusiast who wants to create an impact in the real 
+          world by using his Tech knowledge and skills.
+
+        </p>
+        <div class="flex items-center justify-center pt-5 md:justify-start">
+          <a href="/">
+            <i
+              class="bx bxl-facebook-square text-2xl text-primary hover:text-yellow"
+            ></i>
+          </a>
+          <a href="/" class="pl-4">
+            <i
+              class="bx bxl-twitter text-2xl text-primary hover:text-yellow"
+            ></i>
+          </a>
+          <a href="/" class="pl-4">
+            <i
+              class="bx bxl-dribbble text-2xl text-primary hover:text-yellow"
+            ></i>
+          </a>
+          <a href="/" class="pl-4">
+            <i
+              class="bx bxl-linkedin text-2xl text-primary hover:text-yellow"
+            ></i>
+          </a>
+          <a href="/" class="pl-4">
+            <i
+              class="bx bxl-instagram text-2xl text-primary hover:text-yellow"
+            ></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+      <div class="bg-black">
+  <div class="container flex flex-col justify-between py-6 sm:flex-row">
+    <p class="text-center font-body text-white md:text-left">
+      © Copyright 2022. All right reserved, Aditya.
+    </p>
+    <div class="flex items-center justify-center pt-5 sm:justify-start sm:pt-0">
+      <a href="/">
+        <i
+          class="bx bxl-facebook-square text-2xl text-white hover:text-yellow"
+        ></i>
+      </a>
+      <a href="/" class="pl-4">
+        <i class="bx bxl-twitter text-2xl text-primary hover:text-yellow"></i>
+      </a>
+      <a href="/" class="pl-4">
+        <i class="bx bxl-dribbble text-2xl text-white hover:text-yellow"></i>
+      </a>
+      <a href="/" class="pl-4">
+        <i class="bx bxl-linkedin text-2xl text-primary hover:text-yellow"></i>
+      </a>
+      <a href="/" class="pl-4">
+        <i class="bx bxl-instagram text-2xl text-white hover:text-yellow"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+    </div>
+
+    <script src="/main.js"></script>
+
+    
+  </body>
+</html>
